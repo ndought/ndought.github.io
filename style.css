@@ -1,7 +1,7 @@
 /* CORE STYLES */
 :root {
     --primary-color: rgba(133, 122, 122, 0.247);
-    --overlay-color: rgba(103, 106, 109, 0.788);
+    --overlay-color: rgba(149, 170, 190, 0.904);
     --menu-speed: 0.75s;
   }
   
@@ -15,6 +15,9 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
   }
+  #support {
+    background-color: rgba(103, 106, 109, 0.788);
+  }
   
   .container {
     max-width: 960px;
@@ -25,14 +28,15 @@
   
   .showcase {
     background: var(--primary-color);
-    color: #fff;
+    color: rgba(41, 86, 128, 0.705);
     height: 100vh;
     position: relative;
+    
   }
   
   .showcase:before {
     content: '';
-    background: url('../ndought.github.io/image/8.jpg') no-repeat center center/cover;
+    background: url('./image/8.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -45,7 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     text-align: center;
     height: 100%;
   }
@@ -53,16 +57,21 @@
   .showcase h1 {
     font-size: 4rem;
   }
+
+  #bio {
+    font-weight: bolder;
+  }
   
   .showcase p {
     font-size: 1.3rem;
+    
   }
   
   .btn {
     display: inline-block;
     border: none;
     background: var(--primary-color);
-    color: #fff;
+    color: rgba(41, 86, 128, 0.699);
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
     transition: opacity 1s ease-in-out;
@@ -70,6 +79,33 @@
   }
   
   .btn:hover {
-    opacity: 0.7;
+    opacity: .3;
+  }
+  h1 {
+    color: rgba(41, 86, 128, 0.705);
+
+  }
+  .wrapper h1 {
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .single-img{
+    padding:0 20px 20px;
+  }
+
+  img:hover {
+    opacity: .3;
+    transition: .9s;
   }
   
