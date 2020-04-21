@@ -29,3 +29,12 @@ body {
   .row {
       display: flex;
   }
+
+  #h2 {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .h2:hover {
+    cursor: pointer;
+
+  }
