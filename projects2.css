@@ -1,0 +1,79 @@
+body {
+    font-family: helvetica, arial; 
+  }
+
+  h1, h2 {
+      color: whitesmoke;
+      align-content: center;
+      text-align: center;
+  }
+
+  .btn {
+      
+      margin-left: 225px;
+  }
+
+  .thumbnail:hover {
+      opacity: .7;
+  }
+
+  img {
+      /* float: left; */
+      padding-left: 25%;
+    
+  }
+
+  .thumbnail {
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+  .thumbnail {
+    display: flex;
+    margin-right: 25px;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-height: 250px;
+    max-width: 450px;
+    transition: 250ms;
+    padding: 5px;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.2);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    background: rgba(2, 4, 12, 0.808);
+    user-select: none;
+  }
+  
+  .modalImage {
+      top: 50%;
+      left: 50%;
+      max-height: 80%;
+      max-width: 80%;
+      position: fixed;
+      z-index: 100000;
+      transform: translate(-50%, -50%);
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  #projects {
+    background: url('./image/BackgroundImages/background-portfolio2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

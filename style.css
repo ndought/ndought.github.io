@@ -1,3 +1,5 @@
+
+
 /* CORE STYLES */
 :root {
     --primary-color: rgba(133, 122, 122, 0.247);
@@ -36,7 +38,7 @@
   
   .showcase:before {
     content: '';
-    background: url('./image/8.jpg') no-repeat center center/cover;
+    background: url('./image/BackgroundImages/background-portfolio2.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -55,6 +57,7 @@
   }
   
   .showcase h1 {
+    color: rgba(252, 253, 253, 0.651);
     font-size: 4rem;
   }
 
@@ -63,6 +66,7 @@
   }
   
   .showcase p {
+    color: rgba(252, 253, 253, 0.685);
     font-size: 1.3rem;
     
   }
@@ -75,16 +79,17 @@
   .btn {
     display: inline-block;
     border: none;
-    background: var(--primary-color);
-    color: rgba(41, 86, 128, 0.699);
+    border-radius: 20px;
+    background: rgba(121, 185, 245, 0.918);
+    color: rgba(238, 242, 247, 0.897);
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
-    transition: opacity 1s ease-in-out;
+    transition: opacity .75s ease-in-out;
     text-decoration: none;
   }
   
   .btn:hover {
-    opacity: .3;
+    opacity: .7;
   }
   h1 {
     color: rgba(41, 86, 128, 0.705);

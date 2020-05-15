@@ -1,64 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="projects" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.html">
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style3.css">
     <title>Projects</title>
 </head>
 <body>
-    <div>
-        <a href="index.html"><h2>HOME</h2></a>
-    </div>
-    <div class="final-project">
-        <h2><p style="text-align: center;"><a href="https://random-access-cards.herokuapp.com/">Final Project- Random Acces Cards</a></h2>
-    </div>
-    <div class="row">
-        <div class="column">
-            <img src="./image/loginpage.png" alt="RAC" style="width:100%">
+
+    <!-- <p><h1>On this page you will find a few projects that I did during bootcamp.  The pictures are examples of designs that I created and for the projects
+         that are hosted on websites, links are also included for you to check out.  For projects that can not be hosted you will find links to the specific Git-Hub Repositories.</h1></p> -->
+
+    <div class="container" id="gallery"></div>
+
+        <h1>Gallery</h1>
+
+
+        <!-- <div> -->
+            <img class="myImg" src="./image/ProjectImages/login2.png" alt="Design example for login page" width="25%" height="25%">
+            <!-- <img class="myImg" src="./image/ProjectImages/login1.png" alt="Example design for login page" width="25%" height="25%"> -->
+
+        <!-- </div> -->
+        <div id="myModal" class="modal">
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <img class="modal-content" id="img-02">
+            <div id="caption"></div>
         </div>
-        <div class="column">
-            <img src="./image/finalproject.png" alt="RAC" style="width:100%">
+
+
+        <!-- <div> -->
+          <img class="myImg" src="./image/ProjectImages/login1.png" alt="Example design for login page" width="25%" height="25%">
+        <!-- </div> -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img02">
+            <div id="caption"></div>
         </div>
-        <div class="column">
-            <img src="./image/style.png" alt="RAC" style="width:100%">
+
+        <!-- <div>
+            <img id="myImg" src="./image/ProjectImages/login3.png" alt="Design example for 'All-Topics' page." width="25%" height="25%">
         </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div class="project-color">
-        <h2><p style="text-align: center;"><a href="https://2020-spring-cohort.github.io/clicking-calamity-ndought/">Cookie Clicker Project</a></h2>
-            <br>
-            <br>    
-        <div class="cookie-picture">
-            <img src="./image/Cookie Clicker.png" class="center">
-        </div>
-            <br>
-            <br>
-        <h2><p style="text-align: center;">Review Site MVC Web Application</p></h2>
-    </div>
-    
-    
-    <div class="row">
-        <div class="column">
-            <img src="./image/review site.png" alt="Review Site" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="./image/Review Site reviews.png" alt="Review Site" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="./image/reviewsite3.png" alt="Review Site" style="width:100%">
-        </div>
-    </div>
-    
-    <div>
-        <h2><p style="text-align: center;">Skill set includes but is not limited to: <br> Java • Spring • Hibernate • JPA • JavaScript • MVC • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases • Source Control / Git </h2> <br>
-    </div>
-    
-    
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content"  id="img01">
+            <div id="caption"></div>
+        </div> -->
+
+       
+    <script src="project-modal.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 
 </body>
 </html>
+
+
+<!-- <div class="description">
+        <p><h1>Below you will find a few pictures of projects I have worked on.  'Cookie Clicker' and 'Random Access Cards' <br> have dedicated sites
+            that you can visit through their respective links to check them out in a little bit more depth. <br> For projects not hosted or that
+            require their own server you will find a link to their respective Git-Hub Repositories.</p></h1>
+    </div>
+
+    <div class="final-project">
+        <h2><p style="text-align: center;"><a href="https://random-access-cards.herokuapp.com/">Final Project- Random Acces Cards</a></h2>
+    </div> -->
+
+    <!-- <div class="row">
+        <div class="column"> -->
+
+
+<!-- <div>
+    <h2><p style="text-align: center;">Skill set includes but is not limited to: <br> Java • Spring Boot • Hibernate • JPA • JavaScript (ES5/ES6) • MVC • MVVM • HTML • CSS • Flexbox • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • RESTful APIs • React • Node.js • MongoDB (noSQL) • Debian 10/Linux 10 • Responsive Design / Mobile • Android Studio • IntelliJ-IDEA Ultimate • Structured Query Language (SQL) • MySQL • Relational Databases • Source Control / Git </h2> <br>
+</div> -->
+
+<!-- <div>
+    <a href="index.html"><h2>HOME</h2></a>
+</div>
+<div class="final-project">
+    <h2><p style="text-align: center;"><a href="https://random-access-cards.herokuapp.com/">Final Project- Random Acces Cards</a></h2>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="./image/loginpage.png" alt="RAC" style="width:75vh; height: 75vh;">
+    </div>
+    <div class="column">
+        <img src="./image/finalproject.png" alt="RAC" style="width: 50%">
+    </div>
+    <div class="column">
+        <img src="./image/style.png" alt="RAC" style="width: 50%">
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="project-color">
+    <h2><p style="text-align: center;"><a href="https://2020-spring-cohort.github.io/clicking-calamity-ndought/">Cookie Clicker Project</a></h2>
+        <br>
+        <br>    
+    <div class="cookie-picture">
+        <img src="./image/Cookie Clicker.png" class="center">
+    </div>
+        <br>
+        <br>
+    <h2><p style="text-align: center;">Review Site MVC Web Application</p></h2>
+</div>
+
+
+<div class="row">
+    <div class="column">
+        <img src="./image/review site.png" alt="Review Site" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="./image/Review Site reviews.png" alt="Review Site" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="./image/reviewsite3.png" alt="Review Site" style="width:100%">
+    </div>
+</div> -->
