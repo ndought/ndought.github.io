@@ -24,7 +24,7 @@
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background: rgba(121, 185, 245, 0.397);
+    background-color: rgb(9, 44, 77);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,10 +128,11 @@
   
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: rgba(41, 86, 128, 0.705);
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
+    color: rgb(9, 44, 77);
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.0rem;
+    font-weight: 900;
+    /* font-style: italic; */
     padding: 1rem;
   }
   

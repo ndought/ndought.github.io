@@ -1,3 +1,4 @@
+
 #container {
     text-align: justify;
     
@@ -5,6 +6,7 @@
 
 #container > div {
     /* width: 100%; */
+    /* margin-top: -50px; */
     display: inline-block;
     vertical-align: top;
 }
@@ -21,6 +23,9 @@ img:hover {
 }
 
 h1 {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-family: 'Comfortaa', cursive; 
     color: whitesmoke;
     text-align: center;
     line-height: 1.0;
@@ -34,4 +39,6 @@ h1 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+
 
