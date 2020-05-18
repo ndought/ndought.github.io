@@ -38,6 +38,10 @@ body {
     cursor: pointer;
 
   }
+
+  .button {
+    text-align: left;
+  }
   
   #contact {
     background: url('./image/BackgroundImages/background-portfolio2.jpg') no-repeat center center fixed;
