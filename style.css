@@ -5,6 +5,11 @@
     --overlay-color: rgba(149, 170, 190, 0.904);
     --menu-speed: 0.75s;
   }
+
+  .wrapper {
+    position: relative;
+    max-height: 100%;
+  }
   
   * {
     margin: 0;
@@ -19,6 +24,7 @@
 
   
   body {
+    
     line-height: 1.4;
   }
 
@@ -128,6 +134,15 @@
   img:hover {
     opacity: .3;
     transition: .9s;
+  }
+
+  .main-footer {
+    text-align: center;
+    background-color: rgba(17, 56, 92, 0.986);
+    color: rgb(241, 241, 243);
+    font-weight: bolder;
+    
+    
   }
 
   
